@@ -1,0 +1,17 @@
+main: fun.peaksol.blctimermanager.BLCTimerManager
+name: BLCTimerManager
+description: Badlion Client Timer Manager
+version: 1.0.0
+website: https://github.com/TravinDreek/BLCTimerManager
+author: Peaksol
+depend: [BadlionClientTimerAPI]
+
+commands:
+  blctimermanager:
+    aliases: [blctimer, timer]
+    usage: /<command>
+
+permissions:
+  blctimermanager.command:
+    description: Allows using BLCTimerManager
+    default: op
